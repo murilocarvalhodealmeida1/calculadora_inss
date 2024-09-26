@@ -1,1 +1,57 @@
+body{background-color:#fcebe3;
+    position: relative;
+    display:grid;
+    grid-template-areas: 
+    "cabeca cabeca cabeca"
+    "secund princip princip"
+    "rodap rodap rodap"
+
+}
+header{
+    background-color: #fef7ee ;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    flex-direction: inherit;
+    width: 100%;
+    grid-area: cabeca;
+    margin: 10px;
+
+}
+main{
+    background-color: #fcebe3;
+    height: auto;
+    
+}
+
+header img{
+    height: 200p
+}
+main{
+    background-color: #fcebe3;
+    left: 3px;
+}
+
+header img{
+    height: 200px;
+    left: 3px ;
+}
+.textin{
+    left: 3px ;
+}
+.textin{
+    width: 500px;
+    height: 700px;
+}
+.truman{
+    top: 400px;
+    right: 400px;
+    position:absolute;
+}
+.impasse{
+    width: 500px;
+    height: 700px;
+    position: absolute;
+    top: 800px;
+}
 
